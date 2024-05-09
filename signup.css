@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    /* box-sizing: border-box; */
+}
+html,body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+body{
+    line-height: 3rem;
+    display: grid;
+    place-content: center center;
+    background-image: linear-gradient(lightpink,rgb(245, 137, 234), rgb(105, 242, 242) );
+}
+form{
+    display: block;
+    font-size: 1.3rem;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+input{
+    font-size: 105%;
+}
+select
+{
+    font-size:100% ;
+}
+span{
+    color: red;
+}
+.finalmsg{
+    display: inline;
+    position: sticky;
+    top: 11px;
+    background-color: rgb(151, 243, 151);
+
+}
+form{
+    border: 3px dashed whitesmoke;
+    padding: 1rem;
+}
